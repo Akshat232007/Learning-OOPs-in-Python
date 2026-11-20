@@ -40,3 +40,21 @@ e.work = "Frontend Designer"
 print(e.work)
 e.work = ""
 print(e.work)
+
+e.name = input("Enter Your Name : ")
+e.work = input("Enter Your Work : ")
+print(e.name,"\n",e.work)
+
+# @property:
+# Jab hum e.name access karte hain, getter automatically call hota hai
+# aur variable ki value return karta hai.
+
+# @name.setter:
+# Jab hum e.name = "Rahul" likhte hain, setter automatically call hota hai.
+# Setter ke andar hum validation laga sakte hain.
+# Agar value valid hai toh variable update hota hai.
+# Agar invalid hai toh purani value unchanged rehti hai.
+
+# Main Purpose:
+# Property decorator ka use variables ko control karne,
+# validation lagane aur direct modification ko manage karne ke liye hota hai.
